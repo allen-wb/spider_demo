@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-twisted = {path = "F:/py_packages/Twisted-18.7.0-cp36-cp36m-win_amd64.whl"}
+twisted = {path = "E:/py_packages/Twisted-18.7.0-cp36-cp36m-win_amd64.whl"}
 scrapy = "*"
-"pywin32" = {path = "F:/py_packages/pywin32-223.1-cp36-cp36m-win_amd64.whl"}
+"pywin32" = {path = "E:/py_packages/pywin32-223.1-cp36-cp36m-win_amd64.whl"}
 requests = "*"
 
 [dev-packages]
