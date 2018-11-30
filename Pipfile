@@ -8,6 +8,8 @@ twisted = {path = "E:/py_packages/Twisted-18.7.0-cp36-cp36m-win_amd64.whl"}
 scrapy = "*"
 "pywin32" = {path = "E:/py_packages/pywin32-223.1-cp36-cp36m-win_amd64.whl"}
 requests = "*"
+"beautifulsoup4" = "*"
+aiohttp = "*"
 
 [dev-packages]
 
