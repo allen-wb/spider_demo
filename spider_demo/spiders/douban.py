@@ -23,7 +23,7 @@ class DoubanSpider(scrapy.Spider):
 			title = "标题: " + title[0] + "; "
 			# 评论
 			remark = i.xpath('.//span[@class="inq"]//text()').extract()
-			remark = "评论: " + remark[0] + "; "
+			remark = "评论: " + ("" if len(remark) < 1 else remark[0]) + "; "
 			# 分数
 			score = i.xpath('./div//span[@class="rating_num"]//text()').extract()
 			score = "评分: " + score[0]
